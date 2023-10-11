@@ -1,7 +1,3 @@
-# Welcome to streamlit
+I will be building demos leveraging streamlit and chatgpt for my Cybersecurity course here
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
-
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
-
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+*1* Hello.py is a vendor scorecard that I generated from a txt file and chatgpt
