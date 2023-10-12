@@ -11,8 +11,8 @@ with open(os.path.join(os.path.dirname(__file__), 'InfoSecConcepts.json'), 'r') 
 titles = [concept["Title"] for concept in concepts]
 
 # Streamlit UI
-st.title("Cybersecurity Concepts Search")
-selected_title = st.selectbox("Search for a concept:", titles, format_func=lambda x: x)
+st.title("CyberSecurity Concepts")
+selected_title = st.selectbox("Search for a concept:", titles, index=None,  format_func=lambda x: x)
 
 # Display the information for the selected concept
 for concept in concepts:
