@@ -1,0 +1,1463 @@
+[
+  {
+    "Title": "1. Confidentiality, Integrity, and Availability (CIA Triad)",
+    "Questions": [
+      "How does the CIA Triad contribute to the overall information security framework?",
+      "What are some examples of measures taken to ensure confidentiality, integrity, and availability?"
+    ],
+    "Objectives": [
+      "Understand the principles of the CIA triad and its application in infosec.",
+      "Learn to apply the principles of the CIA triad to various information security situations."
+    ],
+    "Vocabulary": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation",
+      "Encryption",
+      "Hashing"
+    ]
+  },
+  {
+    "Title": "2. Least Privilege Principle",
+    "Questions": [
+      "What is the principle of least privilege and why is it important in infosec?",
+      "Give an example of how the principle of least privilege can be implemented."
+    ],
+    "Objectives": [
+      "Understand the concept of the least privilege principle.",
+      "Learn how to apply the least privilege principle in various situations."
+    ],
+    "Vocabulary": [
+      "Principle of Least Privilege (POLP)",
+      "Access Control List (ACL)",
+      "User Rights",
+      "Privilege Escalation"
+    ]
+  },
+  {
+    "Title": "3. Access Control",
+    "Questions": [
+      "What are the different types of access control and how do they differ from one another?",
+      "How do you choose the best access control method for a given situation?"
+    ],
+    "Objectives": [
+      "Understand the different types of access control.",
+      "Learn how to choose and implement the appropriate access control methods."
+    ],
+    "Vocabulary": [
+      "Mandatory Access Control (MAC)",
+      "Discretionary Access Control (DAC)",
+      "Role-Based Access Control (RBAC)",
+      "Access Control List (ACL)",
+      "Permissions",
+      "AAA"
+    ]
+  },
+  {
+    "Title": "4. Risk Identification",
+    "Questions": [
+      "What is risk identification and why is it a critical part of risk management?",
+      "What techniques can be used to identify risks?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of risk identification.",
+      "Learn different risk identification techniques."
+    ],
+    "Vocabulary": [
+      "Risk (asset x threat x vulnerability)",
+      "Threat",
+      "Vulnerability",
+      "Risk Register",
+      "Risk Identification Techniques (e.g., brainstorming, Delphi technique)"
+    ]
+  },
+  {
+    "Title": "5. Risk Assessment",
+    "Questions": [
+      "What is the role of risk assessment in the overall risk management process?",
+      "What are the steps involved in a risk assessment?"
+    ],
+    "Objectives": [
+      "Understand the process and significance of risk assessment.",
+      "Learn how to conduct a risk assessment."
+    ],
+    "Vocabulary": [
+      "Risk Assessment",
+      "Risk Matrix",
+      "Risk Appetite",
+      "Risk Evaluation"
+    ]
+  },
+  {
+    "Title": "6. Risk Analysis",
+    "Questions": [
+      "How does risk analysis differ from risk assessment?",
+      "What are some methods for conducting a risk analysis?"
+    ],
+    "Objectives": [
+      "Understand the concept and role of risk analysis in risk management.",
+      "Learn how to conduct risk analysis."
+    ],
+    "Vocabulary": [
+      "Quantitative Risk Analysis",
+      "Qualitative Risk Analysis",
+      "Impact",
+      "Likelihood"
+    ]
+  },
+  {
+    "Title": "7. Risk Evaluation",
+    "Questions": [
+      "How is risk evaluation different from risk analysis?",
+      "What factors should be considered during risk evaluation?"
+    ],
+    "Objectives": [
+      "Understand the concept and role of risk evaluation in risk management.",
+      "Learn how to evaluate risks effectively."
+    ],
+    "Vocabulary": [
+      "Risk Evaluation",
+      "Risk Score",
+      "Risk Matrix",
+      "Risk Mitigation"
+    ]
+  },
+  {
+    "Title": "8. Defense in Depth",
+    "Questions": [
+      "What is the defense in depth strategy?",
+      "Can you provide examples of how defense in depth can be implemented?"
+    ],
+    "Objectives": [
+      "Understand the concept of defense in depth.",
+      "Learn to develop defense in depth strategies."
+    ],
+    "Vocabulary": [
+      "Defense in Depth",
+      "Layered Security",
+      "Intrusion Detection System (IDS)",
+      "Intrusion Prevention System (IPS)"
+    ]
+  },
+  {
+    "Title": "9. Encryption",
+    "Questions": [
+      "What is encryption and why is it important in information security?",
+      "Can you differentiate between symmetric and asymmetric encryption?",
+      "Give me examples of each"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of encryption.",
+      "Learn about different types of encryption and how they work."
+    ],
+    "Vocabulary": [
+      "Encryption",
+      "Symmetric encryption",
+      "Asymmetric encryption",
+      "Key",
+      "Cipher"
+    ]
+  },
+  {
+    "Title": "10. Public Key Infrastructure (PKI)",
+    "Questions": [
+      "How does PKI contribute to secure communications?",
+      "What are the components of PKI?"
+    ],
+    "Objectives": [
+      "Understand the principles of PKI and its application in secure communications.",
+      "Learn about the elements of PKI and how they work together."
+    ],
+    "Vocabulary": [
+      "Public Key Infrastructure (PKI)",
+      "Certificate Authority (CA)",
+      "Public Key",
+      "Private Key",
+      "Digital Certificate"
+    ]
+  },
+  {
+    "Title": "11. Secure Sockets Layer (SSL)/Transport Layer Security (TLS)",
+    "Questions": [
+      "What are SSL and TLS, and how do they contribute to secure communications?",
+      "What is the difference between SSL and TLS?"
+    ],
+    "Objectives": [
+      "Understand the principles of SSL and TLS and their application in secure communications.",
+      "Learn the differences and similarities between SSL and TLS."
+    ],
+    "Vocabulary": [
+      "Secure Sockets Layer (SSL)",
+      "Transport Layer Security (TLS)",
+      "Certificate",
+      "Handshake",
+      "Encryption"
+    ]
+  },
+  {
+    "Title": "12. Antivirus Software",
+    "Questions": [
+      "What role does antivirus software play in a system's defense strategy?",
+      "How does antivirus software identify threats?"
+    ],
+    "Objectives": [
+      "Understand the importance of antivirus software in securing a system.",
+      "Learn how antivirus software functions and how it identifies threats."
+    ],
+    "Vocabulary": [
+      "Antivirus",
+      "Signature-based detection",
+      "Heuristic-based detection",
+      "Quarantine",
+      "Firewall"
+    ]
+  },
+  {
+    "Title": "13. Firewall",
+    "Questions": [
+      "What is the role of a firewall in an organization's network?",
+      "How does a firewall differ from IDS/IPS?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of a firewall in network security.",
+      "Learn about the differences and similarities between firewalls and intrusion detection and prevention systems."
+    ],
+    "Vocabulary": [
+      "Firewall",
+      "Packet Filtering",
+      "Stateful Inspection",
+      "Proxy Server",
+      "Network Address Translation (NAT)"
+    ]
+  },
+  {
+    "Title": "14. Intrusion Detection System (IDS)/Intrusion Prevention System (IPS)",
+    "Questions": [
+      "What is the difference between IDS and IPS?",
+      "How do IDS/IPS systems contribute to an organization's security posture?",
+      "How do IDS/IPS detect incidents?"
+    ],
+    "Objectives": [
+      "Understand the roles of IDS and IPS in an organization's security architecture.",
+      "Learn the differences and similarities between IDS and IPS."
+    ],
+    "Vocabulary": [
+      "Intrusion Detection System (IDS)",
+      "Intrusion Prevention System (IPS)",
+      "Signature-based detection",
+      "Anomaly-based detection",
+      "False Positive",
+      "False Negative"
+    ]
+  },
+  {
+    "Title": "15. Vulnerability Assessment",
+    "Questions": [
+      "What is a vulnerability assessment, and why is it important in cybersecurity?",
+      "How does a vulnerability assessment differ from a penetration test?"
+    ],
+    "Objectives": [
+      "Understand the purpose and process of a vulnerability assessment.",
+      "Learn how to conduct a vulnerability assessment."
+    ],
+    "Vocabulary": [
+      "Vulnerability",
+      "Vulnerability Assessment",
+      "Vulnerability Scanning",
+      "Patch Management",
+      "Exploit"
+    ]
+  },
+  {
+    "Title": "16. Threat Modeling",
+    "Questions": [
+      "What is threat modeling and what role does it play in cybersecurity?",
+      "Can you describe the steps involved in threat modeling?"
+    ],
+    "Objectives": [
+      "Understand the concept of threat modeling and its importance in securing a system.",
+      "Learn how to create and use threat models."
+    ],
+    "Vocabulary": [
+      "Threat Modeling",
+      "Asset",
+      "Adversary",
+      "Attack Surface",
+      "Countermeasures"
+    ]
+  },
+  {
+    "Title": "17. Risk Treatment",
+    "Questions": [
+      "What are the different methods of risk treatment?",
+      "How do you choose the appropriate risk treatment method for a specific risk?"
+    ],
+    "Objectives": [
+      "Understand the concept of risk treatment and the different treatment options.",
+      "Learn how to select and apply appropriate risk treatment methods."
+    ],
+    "Vocabulary": [
+      "Risk Treatment",
+      "Risk Acceptance",
+      "Risk Mitigation",
+      "Risk Transfer",
+      "Risk Avoidance"
+    ]
+  },
+  {
+    "Title": "18. Risk Mitigation",
+    "Questions": [
+      "How does risk mitigation differ from other forms of risk treatment?",
+      "What are some examples of risk mitigation strategies?"
+    ],
+    "Objectives": [
+      "Understand the concept of risk mitigation and how it fits within the broader risk management process.",
+      "Learn how to develop and apply risk mitigation strategies."
+    ],
+    "Vocabulary": [
+      "Risk Mitigation",
+      "Controls",
+      "Mitigation Strategies",
+      "Risk Management"
+    ]
+  },
+  {
+    "Title": "19. Risk Transfer",
+    "Questions": [
+      "What does risk transfer involve and when is it the best option for handling a risk?",
+      "What are some examples of risk transfer methods?"
+    ],
+    "Objectives": [
+      "Understand the concept of risk transfer and when it is applicable.",
+      "Learn about different risk transfer methods."
+    ],
+    "Vocabulary": [
+      "Risk Transfer",
+      "Insurance",
+      "Contractual Agreements",
+      "Third-party"
+    ]
+  },
+  {
+    "Title": "20. Risk Appetite",
+    "Questions": [
+      "What is risk appetite and how does it influence an organization's approach to risk management?",
+      "How is risk appetite determined and communicated within an organization?"
+    ],
+    "Objectives": [
+      "Understand the concept of risk appetite and its role in risk management.",
+      "Learn how to define and communicate risk appetite in an organizational context."
+    ],
+    "Vocabulary": [
+      "Risk Appetite",
+      "Risk Tolerance",
+      "Risk Threshold",
+      "Risk Management"
+    ]
+  },
+  {
+    "Title": "21. Risk Register",
+    "Questions": [
+      "What is a risk register and what information does it typically contain?",
+      "How is a risk register used in the risk management process?"
+    ],
+    "Objectives": [
+      "Understand the purpose and structure of a risk register.",
+      "Learn how to create and maintain a risk register."
+    ],
+    "Vocabulary": [
+      "Risk Register",
+      "Risk Owner",
+      "Risk Impact",
+      "Risk Probability",
+      "Mitigation Actions"
+    ]
+  },
+  {
+    "Title": "22. Risk Matrix",
+    "Questions": [
+      "What is a risk matrix and how is it used in risk assessment?",
+      "How can a risk matrix help in making decisions about risk treatment?"
+    ],
+    "Objectives": [
+      "Understand the purpose and usage of a risk matrix.",
+      "Learn how to create and interpret a risk matrix."
+    ],
+    "Vocabulary": [
+      "Risk Matrix",
+      "Risk Severity",
+      "Risk Likelihood",
+      "Risk Rating"
+    ]
+  },
+  {
+    "Title": "23. Enterprise Risk Management (ERM)",
+    "Questions": [
+      "What is enterprise risk management and how does it differ from traditional risk management?",
+      "How can ERM benefit an organization?"
+    ],
+    "Objectives": [
+      "Understand the principles and benefits of ERM.",
+      "Learn how to implement ERM in an organization."
+    ],
+    "Vocabulary": [
+      "Enterprise Risk Management (ERM)",
+      "Risk Appetite",
+      "Risk Culture",
+      "Risk Portfolio"
+    ]
+  },
+  {
+    "Title": "24. Operational Risk Management",
+    "Questions": [
+      "What is operational risk management and how does it fit into the overall risk management framework?",
+      "Can you provide examples of operational risks and how they can be managed?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of operational risk management.",
+      "Learn how to identify and manage operational risks."
+    ],
+    "Vocabulary": [
+      "Operational Risk",
+      "Risk Assessment",
+      "Key Risk Indicator (KRI)",
+      "Business Continuity"
+    ]
+  },
+  {
+    "Title": "25. Financial Risk Management",
+    "Questions": [
+      "What is financial risk management and why is it important for organizations?",
+      "What are the key components of a financial risk management program?"
+    ],
+    "Objectives": [
+      "Understand the importance and components of financial risk management.",
+      "Learn about different types of financial risks and how they can be managed."
+    ],
+    "Vocabulary": [
+      "Financial Risk",
+      "Credit Risk",
+      "Market Risk",
+      "Liquidity Risk",
+      "Operational Risk"
+    ]
+  },
+  {
+    "Title": "26. Strategic Risk Management",
+    "Questions": [
+      "What is strategic risk management and how does it contribute to an organization's success?",
+      "Can you provide examples of strategic risks and how they can be managed?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of strategic risk management.",
+      "Learn how to identify and manage strategic risks."
+    ],
+    "Vocabulary": [
+      "Strategic Risk",
+      "Risk Appetite",
+      "Risk Mitigation",
+      "Strategy Implementation"
+    ]
+  },
+  {
+    "Title": "27. Risk Reporting",
+    "Questions": [
+      "What is the role of risk reporting in risk management?",
+      "What information should be included in a risk report?"
+    ],
+    "Objectives": [
+      "Understand the importance of risk reporting in risk management.",
+      "Learn how to create effective risk reports."
+    ],
+    "Vocabulary": [
+      "Risk Reporting",
+      "Risk Dashboard",
+      "Risk Indicators",
+      "Risk Trends"
+    ]
+  },
+  {
+    "Title": "28. Governance",
+    "Questions": [
+      "What is the role of governance in an organization's risk management framework?",
+      "How does effective governance support risk management?"
+    ],
+    "Objectives": [
+      "Understand the concept of governance and its role in risk management.",
+      "Learn about the components of effective governance."
+    ],
+    "Vocabulary": [
+      "Governance",
+      "Board of Directors",
+      "Governance, Risk Management, and Compliance (GRC)",
+      "Corporate Governance"
+    ]
+  },
+  {
+    "Title": "29. Risk",
+    "Questions": [
+      "What is risk, and how is it identified and assessed in a risk management framework?",
+      "Can you explain the difference between inherent risk and residual risk?"
+    ],
+    "Objectives": [
+      "Understand the concept of risk and its role in risk management.",
+      "Learn how to identify and assess risks."
+    ],
+    "Vocabulary": [
+      "Risk",
+      "Threat",
+      "Vulnerability",
+      "Inherent Risk",
+      "Residual Risk"
+    ]
+  },
+  {
+    "Title": "30. Compliance",
+    "Questions": [
+      "What is compliance and why is it important in the context of risk management?",
+      "How does an organization ensure compliance with relevant laws, regulations, and standards?"
+    ],
+    "Objectives": [
+      "Understand the concept of compliance and its role in risk management.",
+      "Learn how to ensure and demonstrate compliance in an organizational context."
+    ],
+    "Vocabulary": [
+      "Compliance",
+      "Regulatory Compliance",
+      "Compliance Management",
+      "Audit",
+      "Compliance Officer"
+    ]
+  },
+  {
+    "Title": "31. Policy Management",
+    "Questions": [
+      "What is policy management and why is it important for organizations?",
+      "How are policies developed, implemented, and enforced in an organization?"
+    ],
+    "Objectives": [
+      "Understand the importance of policy management in governance and risk management.",
+      "Learn how to manage the policy lifecycle in an organization."
+    ],
+    "Vocabulary": [
+      "Policy Management",
+      "Policy",
+      "Procedure",
+      "Policy Enforcement",
+      "Policy Lifecycle"
+    ]
+  },
+  {
+    "Title": "32. Compliance Management",
+    "Questions": [
+      "What is compliance management and how does it support an organization's risk management efforts?",
+      "What are the key components of a compliance management program?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of compliance management.",
+      "Learn about the components and implementation of a compliance management program."
+    ],
+    "Vocabulary": [
+      "Compliance Management",
+      "Regulatory Compliance",
+      "Compliance Risk",
+      "Compliance Audit",
+      "Compliance Training"
+    ]
+  },
+  {
+    "Title": "33. Risk Management",
+    "Questions": [
+      "What is risk management and how does it support an organization's objectives?",
+      "Can you describe the risk management process and its key components?"
+    ],
+    "Objectives": [
+      "Understand the concept, importance, and process of risk management.",
+      "Learn about the key components and steps of the risk management process."
+    ],
+    "Vocabulary": [
+      "Risk Management",
+      "Risk Identification",
+      "Risk Assessment",
+      "Risk Mitigation",
+      "Risk Monitoring"
+    ]
+  },
+  {
+    "Title": "34. Audit Management",
+    "Questions": [
+      "What is the role of audit management in a risk management framework?",
+      "How is an audit typically conducted and what are its outputs?"
+    ],
+    "Objectives": [
+      "Understand the importance of audit management in risk and compliance management.",
+      "Learn how to plan, conduct, and follow up on audits."
+    ],
+    "Vocabulary": [
+      "Audit Management",
+      "Internal Audit",
+      "External Audit",
+      "Audit Findings",
+      "Audit Report"
+    ]
+  },
+  {
+    "Title": "35. IT GRC",
+    "Questions": [
+      "What is IT GRC and why is it important for organizations?",
+      "How does IT GRC support risk management, governance, and compliance?"
+    ],
+    "Objectives": [
+      "Understand the concept of IT GRC and its role in organizations.",
+      "Learn about the key components of an IT GRC program."
+    ],
+    "Vocabulary": [
+      "IT Governance, Risk Management, and Compliance (IT GRC)",
+      "IT Governance",
+      "IT Risk Management",
+      "IT Compliance",
+      "GRC Software"
+    ]
+  },
+  {
+    "Title": "36. Corporate Governance",
+    "Questions": [
+      "What is corporate governance and why is it important?",
+      "How does corporate governance support risk management and compliance?"
+    ],
+    "Objectives": [
+      "Understand the concept of corporate governance and its importance for organizations.",
+      "Learn about the key components and principles of effective corporate governance."
+    ],
+    "Vocabulary": [
+      "Corporate Governance",
+      "Board of Directors",
+      "Shareholders",
+      "Corporate Ethics",
+      "Governance Structure"
+    ]
+  },
+  {
+    "Title": "37. Regulatory Change Management",
+    "Questions": [
+      "What is regulatory change management and why is it important for organizations?",
+      "How can organizations effectively manage regulatory changes?"
+    ],
+    "Objectives": [
+      "Understand the concept of regulatory change management and its importance for compliance.",
+      "Learn how to monitor and implement regulatory changes in an organization."
+    ],
+    "Vocabulary": [
+      "Regulatory Change Management",
+      "Regulatory Compliance",
+      "Regulatory Update",
+      "Regulatory Environment",
+      "Regulatory Risk"
+    ]
+  },
+  {
+    "Title": "38. Compliance Reporting",
+    "Questions": [
+      "What is compliance reporting and why is it important for organizations?",
+      "What information should be included in a compliance report?"
+    ],
+    "Objectives": [
+      "Understand the concept of compliance reporting and its importance for demonstrating compliance.",
+      "Learn how to create effective compliance reports."
+    ],
+    "Vocabulary": [
+      "Compliance Reporting",
+      "Compliance Dashboard",
+      "Compliance Indicators",
+      "Compliance Trends"
+    ]
+  },
+  {
+    "Title": "39. Risk Assessment",
+    "Questions": [
+      "How is a risk assessment conducted and what are its key components?",
+      "Can you explain the difference between qualitative and quantitative risk assessments?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of risk assessment.",
+      "Learn how to conduct both qualitative and quantitative risk assessments."
+    ],
+    "Vocabulary": [
+      "Risk Assessment",
+      "Risk Identification",
+      "Risk Analysis",
+      "Risk Evaluation",
+      "Inherent Risk",
+      "Residual Risk"
+    ]
+  },
+  {
+    "Title": "40. Control Testing",
+    "Questions": [
+      "What is control testing and why is it important in the risk management process?",
+      "How are controls tested and what are the outcomes of control testing?"
+    ],
+    "Objectives": [
+      "Understand the concept of control testing and its role in risk management.",
+      "Learn how to plan, conduct, and interpret control tests."
+    ],
+    "Vocabulary": [
+      "Control Testing",
+      "Internal Control",
+      "Test of Design",
+      "Test of Effectiveness",
+      "Control Deficiencies"
+    ]
+  },
+  {
+    "Title": "41. Issue Management",
+    "Questions": [
+      "What is issue management and how does it support risk management and compliance?",
+      "How are issues identified, assessed, and resolved in an organization?"
+    ],
+    "Objectives": [
+      "Understand the concept of issue management and its importance for risk management and compliance.",
+      "Learn how to manage the issue lifecycle in an organization."
+    ],
+    "Vocabulary": [
+      "Issue Management",
+      "Issue Identification",
+      "Issue Resolution",
+      "Issue Tracking",
+      "Issue Risk"
+    ]
+  },
+  {
+    "Title": "42. Compliance Training",
+    "Questions": [
+      "What is the role of compliance training in a compliance management program?",
+      "How can compliance training be effectively delivered and evaluated?"
+    ],
+    "Objectives": [
+      "Understand the importance of compliance training for maintaining compliance and managing compliance risks.",
+      "Learn how to plan, deliver, and evaluate compliance training."
+    ],
+    "Vocabulary": [
+      "Compliance Training",
+      "Compliance Awareness",
+      "Training Effectiveness",
+      "Training Content",
+      "Training Delivery"
+    ]
+  },
+  {
+    "Title": "43. Data Privacy",
+    "Questions": [
+      "What is data privacy and why is it important for organizations?",
+      "Can you explain the concept of personally identifiable information (PII) and how it should be protected?"
+    ],
+    "Objectives": [
+      "Understand the concept of data privacy and its importance in the context of risk management and compliance.",
+      "Learn about the legal and regulatory requirements for protecting data privacy."
+    ],
+    "Vocabulary": [
+      "Data Privacy",
+      "Personally Identifiable Information (PII)",
+      "Privacy Policy",
+      "Data Protection",
+      "Privacy Risk"
+    ]
+  },
+  {
+    "Title": "44. Data Governance",
+    "Questions": [
+      "What is data governance and how does it support data privacy and security?",
+      "What are the key components of a data governance program?"
+    ],
+    "Objectives": [
+      "Understand the concept of data governance and its importance for data privacy and security.",
+      "Learn about the key components and principles of effective data governance."
+    ],
+    "Vocabulary": [
+      "Data Governance",
+      "Data Quality",
+      "Data Management",
+      "Data Steward",
+      "Data Lifecycle"
+    ]
+  },
+  {
+    "Title": "45. Information Assurance",
+    "Questions": [
+      "What is information assurance and how does it support data privacy and security?",
+      "What are the key components of an information assurance program?"
+    ],
+    "Objectives": [
+      "Understand the concept of information assurance and its importance for data privacy and security.",
+      "Learn about the key components and principles of effective information assurance."
+    ],
+    "Vocabulary": [
+      "Information Assurance",
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-Repudiation"
+    ]
+  },
+  {
+    "Title": "46. PCI-DSS",
+    "Questions": [
+      "What is PCI-DSS and why is it important for organizations that handle cardholder data?",
+      "Can you explain the key requirements of PCI-DSS?"
+    ],
+    "Objectives": [
+      "Understand the purpose and requirements of PCI-DSS.",
+      "Learn how to implement and maintain PCI-DSS compliance."
+    ],
+    "Vocabulary": [
+      "Payment Card Industry Data Security Standard (PCI-DSS)",
+      "Cardholder Data",
+      "PCI Compliance",
+      "PCI Scoping",
+      "PCI Assessment"
+    ]
+  },
+  {
+    "Title": "47. HIPAA",
+    "Questions": [
+      "What is HIPAA and why is it important for organizations that handle protected health information (PHI)?",
+      "Can you explain the key provisions of HIPAA?"
+    ],
+    "Objectives": [
+      "Understand the purpose and requirements of HIPAA.",
+      "Learn how to implement and maintain HIPAA compliance."
+    ],
+    "Vocabulary": [
+      "Health Insurance Portability and Accountability Act (HIPAA)",
+      "Protected Health Information (PHI)",
+      "HIPAA Privacy Rule",
+      "HIPAA Security Rule",
+      "HIPAA Compliance"
+    ]
+  },
+  {
+    "Title": "48. GDPR",
+    "Questions": [
+      "What is GDPR and why is it important for organizations that handle personal data of EU residents?",
+      "Can you explain the key principles and rights under GDPR?"
+    ],
+    "Objectives": [
+      "Understand the purpose and requirements of GDPR.",
+      "Learn how to implement and maintain GDPR compliance."
+    ],
+    "Vocabulary": [
+      "General Data Protection Regulation (GDPR)",
+      "Personal Data",
+      "Data Subject",
+      "Data Controller",
+      "Data Processor"
+    ]
+  },
+  {
+    "Title": "49. SOX (Sarbanes-Oxley Act)",
+    "Questions": [
+      "What is the Sarbanes-Oxley Act and why is it important for public companies?",
+      "Can you explain the key provisions of the Sarbanes-Oxley Act, such as Sections 302 and 404?"
+    ],
+    "Objectives": [
+      "Understand the purpose and requirements of the Sarbanes-Oxley Act.",
+      "Learn how to implement and maintain SOX compliance."
+    ],
+    "Vocabulary": [
+      "Sarbanes-Oxley Act (SOX)",
+      "Internal Control over Financial Reporting (ICFR)",
+      "SOX Section 302",
+      "SOX Section 404",
+      "SOX Compliance"
+    ]
+  },
+  {
+    "Title": "50. FISMA (Federal Information Security Management Act)",
+    "Questions": [
+      "What is FISMA and why is it important for federal agencies and contractors?",
+      "Can you explain the key requirements of FISMA?"
+    ],
+    "Objectives": [
+      "Understand the purpose and requirements of FISMA.",
+      "Learn how to implement and maintain FISMA compliance."
+    ],
+    "Vocabulary": [
+      "Federal Information Security Management Act (FISMA)",
+      "System Security Plan (SSP)",
+      "FISMA Compliance",
+      "FISMA Assessment",
+      "FISMA Authorization"
+    ]
+  },
+  {
+    "Title": "51. ISO 27001",
+    "Questions": [
+      "What is ISO 27001 and why is it important for organizations that want to demonstrate their commitment to information security?",
+      "Can you explain the key clauses and controls of ISO 27001?"
+    ],
+    "Objectives": [
+      "Understand the purpose and requirements of ISO 27001.",
+      "Learn how to implement and maintain an ISO 27001-compliant Information Security Management System (ISMS)."
+    ],
+    "Vocabulary": [
+      "ISO/IEC 27001",
+      "Information Security Management System (ISMS)",
+      "ISO 27001 Clauses",
+      "ISO 27001 Controls",
+      "ISO 27001 Certification"
+    ]
+  },
+  {
+    "Title": "52. NIST Framework",
+    "Questions": [
+      "What is the NIST Cybersecurity Framework and why is it important for organizations that want to manage their cybersecurity risk?",
+      "Can you explain the core functions and categories of the NIST Cybersecurity Framework?"
+    ],
+    "Objectives": [
+      "Understand the purpose and structure of the NIST Cybersecurity Framework.",
+      "Learn how to use the NIST Cybersecurity Framework to manage cybersecurity risk."
+    ],
+    "Vocabulary": [
+      "National Institute of Standards and Technology (NIST) Cybersecurity Framework",
+      "Framework Core",
+      "Framework Profile",
+      "Framework Implementation Tiers",
+      "Framework Functions (Identify, Protect, Detect, Respond, Recover)"
+    ]
+  },
+  {
+    "Title": "53. Compliance Audit",
+    "Questions": [
+      "What is a compliance audit and how does it support risk management and compliance efforts?",
+      "What are the key steps in a compliance audit process?"
+    ],
+    "Objectives": [
+      "Understand the concept and purpose of a compliance audit.",
+      "Learn about the steps and techniques for conducting a compliance audit."
+    ],
+    "Vocabulary": [
+      "Compliance Audit",
+      "Audit Scope",
+      "Audit Objectives",
+      "Audit Findings",
+      "Audit Report"
+    ]
+  },
+  {
+    "Title": "54. Regulatory Compliance",
+    "Questions": [
+      "What does regulatory compliance mean and why is it crucial for businesses?",
+      "What strategies can businesses employ to achieve and maintain regulatory compliance?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of regulatory compliance.",
+      "Learn about strategies and best practices for achieving regulatory compliance."
+    ],
+    "Vocabulary": [
+      "Regulatory Compliance",
+      "Regulation",
+      "Compliance Program",
+      "Regulatory Bodies",
+      "Compliance Breach"
+    ]
+  },
+  {
+    "Title": "55. Compliance Training",
+    "Questions": [
+      "What is compliance training and why is it important for an organization's compliance efforts?",
+      "What are the components of effective compliance training?"
+    ],
+    "Objectives": [
+      "Understand the role of compliance training in supporting an organization's compliance efforts.",
+      "Learn about effective strategies for delivering and evaluating compliance training."
+    ],
+    "Vocabulary": [
+      "Compliance Training",
+      "Training Content",
+      "Training Delivery",
+      "Training Effectiveness",
+      "Compliance Awareness"
+    ]
+  },
+  {
+    "Title": "56. Data Breach Notification Laws",
+    "Questions": [
+      "What are data breach notification laws and why are they important?",
+      "How do these laws affect an organization's incident response and communication efforts?"
+    ],
+    "Objectives": [
+      "Understand the purpose and requirements of data breach notification laws.",
+      "Learn about the implications of these laws for organizations and how to comply with them."
+    ],
+    "Vocabulary": [
+      "Data Breach Notification Laws",
+      "Data Breach",
+      "Notification Requirement",
+      "Personal Data",
+      "Incident Response"
+    ]
+  },
+  {
+    "Title": "57. Identity and Access Management (IAM)",
+    "Questions": [
+      "What is identity and access management and why is it critical for information security?",
+      "How does an IAM system work and what are its key components?"
+    ],
+    "Objectives": [
+      "Understand the concept and purpose of IAM.",
+      "Learn about the key components and processes of an IAM system."
+    ],
+    "Vocabulary": [
+      "Identity and Access Management (IAM)",
+      "User Identity",
+      "Access Control",
+      "Authentication",
+      "Authorization"
+    ]
+  },
+  {
+    "Title": "58. Virtual Private Network (VPN)",
+    "Questions": [
+      "What is a VPN and how does it enhance the security of online activities?",
+      "How does a VPN work and what are the key considerations when using a VPN?"
+    ],
+    "Objectives": [
+      "Understand the concept and benefits of a VPN.",
+      "Learn about the operation of a VPN and key considerations for its use."
+    ],
+    "Vocabulary": [
+      "Virtual Private Network (VPN)",
+      "Encryption",
+      "VPN Tunnel",
+      "VPN Server",
+      "VPN Client"
+    ]
+  },
+  {
+    "Title": "59. Two-Factor Authentication (2FA)",
+    "Questions": [
+      "What is two-factor authentication and how does it enhance the security of user accounts?",
+      "Can you explain the common types of 2FA and how they work?"
+    ],
+    "Objectives": [
+      "Understand the concept and benefits of 2FA.",
+      "Learn about the common types of 2FA and how to implement them."
+    ],
+    "Vocabulary": [
+      "Two-Factor Authentication (2FA)",
+      "Authentication Factor",
+      "One-Time Password (OTP)",
+      "Biometric Authentication",
+      "Security Token"
+    ]
+  },
+  {
+    "Title": "60. Security Operations Center (SOC)",
+    "Questions": [
+      "What is a SOC and how does it support an organization's cybersecurity efforts?",
+      "What are the key components and roles within a SOC?"
+    ],
+    "Objectives": [
+      "Understand the concept and functions of a SOC.",
+      "Learn about the structure of a SOC and the roles within it."
+    ],
+    "Vocabulary": [
+      "Security Operations Center (SOC)",
+      "Cybersecurity",
+      "Incident Response",
+      "Threat Intelligence",
+      "Security Analyst"
+    ]
+  },
+  {
+    "Title": "61. Security Information and Event Management (SIEM)",
+    "Questions": [
+      "What is SIEM and how does it support cybersecurity operations?",
+      "How does a SIEM system work and what are its key components?"
+    ],
+    "Objectives": [
+      "Understand the concept and purpose of SIEM.",
+      "Learn about the key features and operation of a SIEM system."
+    ],
+    "Vocabulary": [
+      "Security Information and Event Management (SIEM)",
+      "Log Management",
+      "Event Correlation",
+      "Real-time Monitoring",
+      "Incident Response"
+    ]
+  },
+  {
+    "Title": "62. Cyber Threat Intelligence (CTI)",
+    "Questions": [
+      "What is cyber threat intelligence and how can it enhance an organization's cybersecurity efforts?",
+      "Can you explain the process of gathering and using cyber threat intelligence?"
+    ],
+    "Objectives": [
+      "Understand the concept and benefits of cyber threat intelligence.",
+      "Learn about the methods for gathering and using cyber threat intelligence."
+    ],
+    "Vocabulary": [
+      "Cyber Threat Intelligence (CTI)",
+      "Threat Actor",
+      "Indicator of Compromise (IoC)",
+      "Threat Intelligence Feed",
+      "Threat Intelligence Platform"
+    ]
+  },
+  {
+    "Title": "63. Penetration Testing",
+    "Questions": [
+      "What is penetration testing and how can it help improve an organization's security posture?",
+      "Can you explain the process and methodologies of penetration testing?"
+    ],
+    "Objectives": [
+      "Understand the concept and benefits of penetration testing.",
+      "Learn about the process and methodologies for conducting penetration testing."
+    ],
+    "Vocabulary": [
+      "Penetration Testing",
+      "Vulnerability",
+      "Exploit",
+      "Test Scope",
+      "Penetration Testing Report"
+    ]
+  },
+  {
+    "Title": "64. Social Engineering",
+    "Questions": [
+      "What is social engineering and how can it pose a threat to an organization's information security?",
+      "Can you explain some common types of social engineering attacks and how to prevent them?"
+    ],
+    "Objectives": [
+      "Understand the concept and risks of social engineering.",
+      "Learn about common types of social engineering attacks and prevention strategies."
+    ],
+    "Vocabulary": [
+      "Social Engineering",
+      "Phishing",
+      "Pretexting",
+      "Baiting",
+      "Tailgating"
+    ]
+  },
+  {
+    "Title": "65. Phishing",
+    "Questions": [
+      "What is phishing and how can it pose a threat to an organization's information security?",
+      "Can you explain some common types of phishing attacks and how to prevent them?"
+    ],
+    "Objectives": [
+      "Understand the concept and risks of phishing.",
+      "Learn about common types of phishing attacks and prevention strategies."
+    ],
+    "Vocabulary": [
+      "Phishing",
+      "Spear Phishing",
+      "Whaling",
+      "Phishing Email",
+      "Anti-Phishing"
+    ]
+  },
+  {
+    "Title": "66. Malware",
+    "Questions": [
+      "What is malware and how can it pose a threat to an organization's information security?",
+      "Can you explain some common types of malware and how they operate?"
+    ],
+    "Objectives": [
+      "Understand the concept and risks of malware.",
+      "Learn about common types of malware and their operation."
+    ],
+    "Vocabulary": ["Malware", "Virus", "Worm", "Trojan", "Ransomware"]
+  },
+  {
+    "Title": "67. Ransomware",
+    "Questions": [
+      "What is ransomware and how can it pose a threat to an organization's information security?",
+      "Can you explain how a ransomware attack occurs and how to prevent it?"
+    ],
+    "Objectives": [
+      "Understand the concept and risks of ransomware.",
+      "Learn about the operation of ransomware and prevention strategies."
+    ],
+    "Vocabulary": [
+      "Ransomware",
+      "Encryption",
+      "Ransom",
+      "Ransomware Attack",
+      "Anti-Ransomware"
+    ]
+  },
+  {
+    "Title": "68. Incident Response Plan",
+    "Questions": [
+      "What is an incident response plan and why is it crucial for managing cybersecurity incidents?",
+      "Can you explain the key components of an effective incident response plan?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of an incident response plan.",
+      "Learn about the key components and development of an effective incident response plan."
+    ],
+    "Vocabulary": [
+      "Incident Response Plan",
+      "Incident Response Team",
+      "Incident Classification",
+      "Incident Escalation",
+      "Post-Incident Review"
+    ]
+  },
+  {
+    "Title": "69. Computer Security Incident Response Team (CSIRT)",
+    "Questions": [
+      "What is a CSIRT and how does it support an organization's incident response efforts?",
+      "What are the roles and responsibilities of a CSIRT?"
+    ],
+    "Objectives": [
+      "Understand the concept and functions of a CSIRT.",
+      "Learn about the roles and responsibilities within a CSIRT."
+    ],
+    "Vocabulary": [
+      "Computer Security Incident Response Team (CSIRT)",
+      "Incident Response",
+      "Incident Handler",
+      "Incident Manager",
+      "Incident Analyst"
+    ]
+  },
+  {
+    "Title": "70. Incident Detection",
+    "Questions": [
+      "What is incident detection and why is it important in cybersecurity?",
+      "Can you explain the common methods and tools for detecting cybersecurity incidents?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of incident detection.",
+      "Learn about common methods and tools for detecting cybersecurity incidents."
+    ],
+    "Vocabulary": [
+      "Incident Detection",
+      "Indicator of Compromise (IoC)",
+      "Intrusion Detection System (IDS)",
+      "Security Information and Event Management (SIEM)",
+      "Threat Hunting"
+    ]
+  },
+  {
+    "Title": "71. Incident Analysis",
+    "Questions": [
+      "What is incident analysis and why is it crucial in cybersecurity incident response?",
+      "Can you explain the process and techniques of conducting incident analysis?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of incident analysis.",
+      "Learn about the process and techniques for conducting incident analysis."
+    ],
+    "Vocabulary": [
+      "Incident Analysis",
+      "Log Analysis",
+      "Forensics",
+      "Threat Intelligence",
+      "Root Cause Analysis"
+    ]
+  },
+  {
+    "Title": "72. Incident Triage",
+    "Questions": [
+      "What is incident triage and why is it crucial in cybersecurity incident response?",
+      "Can you explain the process and criteria of conducting incident triage?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of incident triage.",
+      "Learn about the process and criteria for conducting incident triage."
+    ],
+    "Vocabulary": [
+      "Incident Triage",
+      "Incident Severity",
+      "Incident Prioritization",
+      "Incident Escalation",
+      "Incident Response Plan"
+    ]
+  },
+  {
+    "Title": "73. Incident Reporting",
+    "Questions": [
+      "What is incident reporting and why is it crucial in cybersecurity incident response?",
+      "Can you explain the process and key elements of an incident report?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of incident reporting.",
+      "Learn about the process and key elements of an incident report."
+    ],
+    "Vocabulary": [
+      "Incident Reporting",
+      "Incident Report",
+      "Incident Timeline",
+      "Incident Impact",
+      "Incident Resolution"
+    ]
+  },
+  {
+    "Title": "74. Incident Containment",
+    "Questions": [
+      "What is incident containment and why is it crucial in cybersecurity incident response?",
+      "Can you explain the common strategies and techniques for incident containment?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of incident containment.",
+      "Learn about common strategies and techniques for incident containment."
+    ],
+    "Vocabulary": [
+      "Incident Containment",
+      "Isolation",
+      "Quarantine",
+      "Network Segmentation",
+      "Incident Response Plan"
+    ]
+  },
+  {
+    "Title": "75. Incident Eradication",
+    "Questions": [
+      "What is incident eradication and why is it crucial in cybersecurity incident response?",
+      "Can you explain the common methods and tools for incident eradication?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of incident eradication.",
+      "Learn about common methods and tools for incident eradication."
+    ],
+    "Vocabulary": [
+      "Incident Eradication",
+      "Malware Removal",
+      "System Restoration",
+      "Patching",
+      "Vulnerability Management"
+    ]
+  },
+  {
+    "Title": "76. Incident Recovery",
+    "Questions": [
+      "What is incident recovery and why is it crucial in cybersecurity incident response?",
+      "Can you explain the common methods and tools for incident recovery?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of incident recovery.",
+      "Learn about common methods and tools for incident recovery."
+    ],
+    "Vocabulary": [
+      "Incident Recovery",
+      "System Restoration",
+      "Data Recovery",
+      "Business Continuity",
+      "Disaster Recovery"
+    ]
+  },
+  {
+    "Title": "77. Post-Incident Activity (Lessons Learned)",
+    "Questions": [
+      "What is post-incident activity and why is it crucial in cybersecurity incident response?",
+      "Can you explain the common methods and tools for conducting post-incident reviews and applying lessons learned?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of post-incident activity.",
+      "Learn about common methods and tools for conducting post-incident reviews and applying lessons learned."
+    ],
+    "Vocabulary": [
+      "Post-Incident Activity",
+      "Lessons Learned",
+      "Post-Incident Review",
+      "Incident Response Improvement",
+      "Incident Reporting"
+    ]
+  },
+  {
+    "Title": "78. Incident Severity Level",
+    "Questions": [
+      "What is incident severity level and how is it used in cybersecurity incident response?",
+      "Can you explain the common criteria for determining incident severity levels?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of incident severity level.",
+      "Learn about common criteria for determining incident severity levels."
+    ],
+    "Vocabulary": [
+      "Incident Severity Level",
+      "Incident Impact",
+      "Incident Prioritization",
+      "Incident Response Plan",
+      "Incident Triage"
+    ]
+  },
+  {
+    "Title": "79. Forensics",
+    "Questions": [
+      "What is digital forensics and why is it important in cybersecurity?",
+      "Can you explain the process and techniques of conducting digital forensics?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of digital forensics.",
+      "Learn about the process and techniques for conducting digital forensics."
+    ],
+    "Vocabulary": [
+      "Digital Forensics",
+      "Forensic Imaging",
+      "Forensic Analysis",
+      "Forensic Tools",
+      "Chain of Custody"
+    ]
+  },
+  {
+    "Title": "80. Root Cause Analysis",
+    "Questions": [
+      "What is root cause analysis and why is it important in cybersecurity?",
+      "Can you explain the process and techniques of conducting root cause analysis?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of root cause analysis.",
+      "Learn about the process and techniques for conducting root cause analysis."
+    ],
+    "Vocabulary": [
+      "Root Cause Analysis",
+      "Causal Factor",
+      "Root Cause",
+      "Corrective Action",
+      "Preventive Action"
+    ]
+  },
+  {
+    "Title": "81. Threat Hunting",
+    "Questions": [
+      "What is threat hunting and why is it important in cybersecurity?",
+      "Can you explain the process and techniques of conducting threat hunting?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of threat hunting.",
+      "Learn about the process and techniques for conducting threat hunting."
+    ],
+    "Vocabulary": [
+      "Threat Hunting",
+      "Indicator of Compromise (IoC)",
+      "Threat Intelligence",
+      "Security Information and Event Management (SIEM)",
+      "Threat Hunter"
+    ]
+  },
+  {
+    "Title": "82. Disaster Recovery",
+    "Questions": [
+      "What is disaster recovery and why is it important in cybersecurity?",
+      "Can you explain the key components of a disaster recovery plan and how to develop one?"
+    ],
+    "Objectives": [
+      "Understand the concept and importance of disaster recovery.",
+      "Learn about the key components of a disaster recovery plan and how to develop one."
+    ],
+    "Vocabulary": [
+      "Disaster Recovery",
+      "Disaster Recovery Plan",
+      "Business Continuity",
+      "Recovery Time Objective (RTO)",
+      "Recovery Point Objective (RPO)"
+    ]
+  }
+]
