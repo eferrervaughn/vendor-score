@@ -12,6 +12,11 @@ titles = [concept["Title"] for concept in concepts]
 
 # Streamlit UI
 st.title("CyberSecurity Concepts")
+st.markdown(
+    """
+    Shout out to [Brandon Chiles](https://www.linkedin.com/in/brandon-chiles/) for sharing this resource in our cohort. This tool allows you search for different concepts and guides you on what to study.
+"""
+)
 selected_title = st.selectbox("Search for a concept:", titles, index=None,  format_func=lambda x: x)
 
 # Display the information for the selected concept

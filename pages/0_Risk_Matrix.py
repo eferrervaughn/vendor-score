@@ -18,6 +18,7 @@ import numpy as np
 
 def main():
     st.title("Threat Modeling Dashboard")
+    st.write("This tool allows you to create a risk matrix as a heatmap.")
 
     # User Inputs
     assets = st.text_input("Enter your assets (comma-separated):").split(',')

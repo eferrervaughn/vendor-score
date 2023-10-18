@@ -21,75 +21,36 @@ LOGGER = get_logger(__name__)
 
 
 
-questions_responses_scores = [
-    {
-        "question": "How many locations does the Vendor have where Protected Data will be handled, processed, or stored?",
-        "responses": [
-            {"response": "One Central Location", "score": 1},
-            {"response": "Multiple Locations", "score": 3}
-        ]
-    },
-    {
-        "question": "Where are the Vendor’s operations (handling Protected Data) located?",
-        "responses": [
-            {"response": "Exclusively onshore (within the United States)", "score": 1},
-            {"response": "Combination of onshore and offshore", "score": 3},
-            {"response": "Exclusively offshore", "score": 5}
-        ]
-    },
-    {
-        "question": "Does the Vendor share Protected Data with another entity?",
-        "responses": [
-            {"response": "No – Only the Vendor handles data", "score": 1},
-            {"response": "Yes – The Vendor shares the data with other onshore entities", "score": 3},
-            {"response": "Yes – The Vendor shares the data with other offshore entities", "score": 5}
-        ]
-    },
-    {
-        "question": "Approximately how many records are handled by the Vendor per year?",
-        "responses": [
-            {"response": "1 to 250 records or less", "score": 1},
-            {"response": "251 to 500 records", "score": 3},
-            {"response": "501 to 1000 records", "score": 5},
-            {"response": "1001 to 5000 records", "score": 7},
-            {"response": "More than 5000 records", "score": 10}
-        ]
-    },
-    {
-        "question": "Does the Vendor have access to systems (e.g., VPN)?",
-        "responses": [
-            {"response": "No", "score": 1},
-            {"response": "Yes", "score": 3}
-        ]
-    },
-    {
-        "question": "Is data exchanged electronically between the and the Vendor?",
-        "responses": [
-            {"response": "No – There is no data exchanged electronically", "score": 1},
-            {"response": "Yes – electronically sends data to the Vendor", "score": 3},
-            {"response": "Yes – electronically sends and receives data from the Vendor", "score": 5}
-        ]
-    }
-]
 
 
-def main():
-    st.title('Vendor Security Scorecard')
-    st.write('### Section 4: Vendor Services and Scope')
-    
-    total_score = 0
-    for item in questions_responses_scores:
-        question = item["question"]
-        options = [resp["response"] for resp in item["responses"]]
-        response = st.selectbox(question, options)
+
+import streamlit as st
+from streamlit.logger import get_logger
+
+LOGGER = get_logger(__name__)
+
+
+def run():
+    st.set_page_config(
+        page_title="Techprunuers Playground",
+        page_icon="👋",
+    )
+
+    st.write("# Welcome! 👋")
+
+    st.sidebar.success("Select a demo above.")
+
+    st.markdown(
+        """
+        To assist in my cybersecurity learning, I like to build applications to cement my knowledge. The majority of these were built using Code Interpreter on GPT-4.
+        **👈 Select a demo from the sidebar** to see some different tools. Check out the code on [Github](https://github.com/eferrervaughn/vendor-score).
+
+        Hit me up on circle if you have any app ideas you want me to add. 
         
-        # Add the score of the selected response to the total score
-        for resp in item["responses"]:
-            if resp["response"] == response:
-                total_score += resp["score"]
-                break
-    
-    st.write('### Total Risk Score:', total_score)
+        **Created by Eric Ferrer-Vaughn**
+    """
+    )
+
 
 if __name__ == "__main__":
-    main()
+    run()
